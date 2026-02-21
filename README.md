@@ -1,4 +1,4 @@
-# TugasBesar-PraktikumGit-Kelompok[X]
+# TugasBesar-PraktikumGit-Kelompok1
 
 Repositori ini dibuat untuk memenuhi Tugas Besar/Akhir mata kuliah Praktikum Version Control. 
 
@@ -6,10 +6,10 @@ Repositori ini dibuat untuk memenuhi Tugas Besar/Akhir mata kuliah Praktikum Ver
 **Website Profil Kelompok**
 
 ## Struktur Anggota & Peran
-- **Ketua Kelompok**: [Nama Anda] - Membuat repo & mengelola kolaborasi
-- **Anggota 1**: [Nama Anggota 1] - Kontributor fitur / halaman
-- **Anggota 2**: [Nama Anggota 2] - Kontributor fitur / halaman
-- **Anggota 3**: [Nama Anggota 3] - Dokumentasi / konten
+- **Ketua Kelompok**: Andhika Maulana Shiddiq (301220024)
+- **Anggota 1**: Aurelia Septiani (301220056)
+- **Anggota 2**: Dega Megananda Putra (301220060)
+- **Anggota 3**: Vivi Widya (301220048)
 
 ## Teknologi yang Digunakan
 - HTML5
@@ -29,4 +29,3 @@ Repositori ini dibuat untuk memenuhi Tugas Besar/Akhir mata kuliah Praktikum Ver
 - `index.html`: Landing Page Utama.
 - `css/`: Berisi file styling (global dan per anggota).
 - `members/`: Berisi halaman profil masing-masing anggota.
-- `assets/`: Berisi gambar dan aset lainnya.
