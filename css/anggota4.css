@@ -1,1 +1,15 @@
-/* Member 4 Specific Styles */
+/* Member 4 Specific Styles (Sample Theme) */
+:root {
+    --member-4-accent: #7c3aed;
+    /* Violet */
+    --member-4-bg: #f5f3ff;
+}
+
+.profile-card {
+    border-color: var(--member-4-accent) !important;
+    background-color: var(--member-4-bg) !important;
+}
+
+.profile-card h1 {
+    color: var(--member-4-accent);
+}
