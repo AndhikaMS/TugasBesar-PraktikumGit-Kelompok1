@@ -4,71 +4,123 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Anggota 4 | Vivi Widya</title>
-    <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600&family=Space+Grotesk:wght@700;800&display=swap"
-        rel="stylesheet">
-    <!-- CSS -->
+    <title>Vivi Widya | Profile</title>
     <link rel="stylesheet" href="../css/style.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;600;700&family=Space+Grotesk:wght@500;700;800&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="../css/anggota4.css">
 </head>
 
-<body style="background: white;">
-    <header>
-        <nav class="container"
-            style="display: flex; justify-content: space-between; align-items: center; padding: 1.5rem 0;">
-            <a href="../index.html" class="logo">← BACK</a>
+<body class="member-page">
+
+    <!-- Aurora Background Waves -->
+    <div class="aurora aurora-1"></div>
+    <div class="aurora aurora-2"></div>
+
+    <!-- Navigation -->
+    <header class="glass-header">
+        <nav class="container nav-bar">
+            <a href="../index.html" class="back-btn">
+                <span class="back-icon">&#8592;</span>
+                <span>Kembali</span>
+            </a>
         </nav>
     </header>
 
-    <main class="container" style="padding: 4rem 0;">
-        <div style="max-width: 800px; margin: 0 auto;">
-            <!-- Profile Card -->
-            <div class="profile-card"
-                style="padding: 3rem; background: var(--light); border-radius: 30px; border: 2px dashed var(--primary);">
-                <h1 style="font-size: 2.5rem; margin-bottom: 1rem;">Vivi Widya</h1>
-                <p style="font-size: 1.25rem; color: var(--secondary); margin-bottom: 2rem;">NIM: 301220048</p>
+    <!-- Full-Width Hero Banner -->
+    <section class="hero-banner">
+        <div class="hero-particles">
+            <span class="particle p1"></span>
+            <span class="particle p2"></span>
+            <span class="particle p3"></span>
+            <span class="particle p4"></span>
+            <span class="particle p5"></span>
+        </div>
+        <div class="hero-content">
+            <div class="avatar-hexagon">
+                <span class="avatar-letter">V</span>
+            </div>
+            <h1 class="hero-name">Vivi Widya</h1>
+            <p class="hero-nim">301220048</p>
+            <div class="hero-badge">
+                <span class="badge-dot"></span>
+                Mahasiswa Aktif
+            </div>
+        </div>
+        <div class="hero-wave">
+            <svg viewBox="0 0 1440 120" preserveAspectRatio="none">
+                <path d="M0,60 C360,120 720,0 1080,60 C1260,90 1380,80 1440,60 L1440,120 L0,120 Z" fill="#0a1a12">
+                </path>
+            </svg>
+        </div>
+    </section>
 
-                <hr style="border: none; border-top: 1px solid #cbd5e1; margin-bottom: 2rem;">
+    <!-- Timeline Content -->
+    <main class="timeline-section">
+        <div class="container">
+            <div class="timeline">
 
-                <h2 style="margin-bottom: 1rem;">Tentang Saya</h2>
-                <p style="margin-bottom: 2rem; font-size: 1.1rem; color: var(--dark);">
-                    Merupakan mahasiswa Program studi Teknik Informatika Fakultas Teknologi Informasi Universitas Bale
-                    Bandung. Saat ini menempuh Semester 7, berada di kelas B.
-                </p>
-
-                <!-- Motto Section (Commit 2) -->
-                <div
-                    style="margin-bottom: 2.5rem; padding: 1.5rem; background: #fff; border-left: 4px solid var(--primary); border-radius: 0 15px 15px 0; font-style: italic;">
-                    <p
-                        style="color: var(--secondary); margin-bottom: 0.5rem; font-size: 0.8rem; text-transform: uppercase; font-weight: 700; letter-spacing: 1px;">
-                        Motto Hidup</p>
-                    <p style="font-size: 1.25rem; color: var(--dark);">"Teruslah melangkah, karena setiap progres
-                        sekecil apapun akan membawamu lebih dekat ke tujuan."</p>
+                <!-- Timeline Item 1: About -->
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-connector"></div>
+                    <div class="timeline-card">
+                        <div class="tl-card-label">
+                            <span class="tl-icon">&#127891;</span>
+                            Tentang Saya
+                        </div>
+                        <p class="tl-card-text">
+                            Merupakan mahasiswa Program Studi Teknik Informatika, Fakultas Teknologi Informasi,
+                            Universitas Bale Bandung. Saat ini menempuh Semester 7, kelas B.
+                        </p>
+                    </div>
                 </div>
 
-                <div style="display: flex; gap: 1rem;">
-                    <span
-                        style="padding: 0.5rem 1rem; background: #e2e8f0; border-radius: 10px; font-size: 0.875rem;">Teknik
-                        Informatika</span>
-                    <span
-                        style="padding: 0.5rem 1rem; background: #e2e8f0; border-radius: 10px; font-size: 0.875rem;">UNIBBA</span>
-                    <span
-                        style="padding: 0.5rem 1rem; background: #e2e8f0; border-radius: 10px; font-size: 0.875rem;">Semester
-                        7</span>
+                <!-- Timeline Item 2: Motto -->
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-connector"></div>
+                    <div class="timeline-card">
+                        <div class="tl-card-label">
+                            <span class="tl-icon">&#128161;</span>
+                            Motto Hidup
+                        </div>
+                        <blockquote class="tl-card-quote">
+                            "Teruslah melangkah, karena setiap progres sekecil apapun akan membawamu lebih dekat ke
+                            tujuan."
+                        </blockquote>
+                    </div>
                 </div>
+
+                <!-- Timeline Item 3: Tags -->
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-card">
+                        <div class="tl-card-label">
+                            <span class="tl-icon">&#127793;</span>
+                            Info Akademik
+                        </div>
+                        <div class="tl-tags">
+                            <span class="tag tag-1">Teknik Informatika</span>
+                            <span class="tag tag-2">UNIBBA</span>
+                            <span class="tag tag-3">Semester 7</span>
+                            <span class="tag tag-4">Kelas B</span>
+                        </div>
+                    </div>
+                </div>
+
             </div>
         </div>
     </main>
 
-    <footer>
-        <div class="container footer-content">
-            <p>&copy; 2026 Group X Members</p>
+    <!-- Footer -->
+    <footer class="member-footer">
+        <div class="container">
+            <p>&copy; 2026 Group 1 &mdash; Tugas Besar Praktikum Version Control</p>
         </div>
     </footer>
+
 </body>
 
 </html>
