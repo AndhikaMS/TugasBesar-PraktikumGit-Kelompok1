@@ -1,4 +1,4 @@
-# TugasBesar-PraktikumGit-Kelompok1
+# TugasBesar-PraktikumGit-Kelompok3
 
 Repositori ini dibuat untuk memenuhi Tugas Besar/Akhir mata kuliah Praktikum Version Control. 
 
